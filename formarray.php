@@ -34,13 +34,11 @@ if (isset($_GET['submit'])) {
             <br>
             <br>
 
-        <?php}?>
+        <?php } ?>
         <input type="submit" name="sbm" value="Simpan">
         <input type="reset" value="Reset"
-    }
-    
-    # code...
-
+        </form>
+    <?php } ?>
 </fieldset>
 </body>
 </html>
