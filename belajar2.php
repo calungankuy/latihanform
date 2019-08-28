@@ -7,6 +7,6 @@
     Password : <input type="password" name="password"><br>
     <input type="submit" name="Login" value="Login">
     <input type="reset" name="reset" value="Reset"> 
-      </FORM>
+     </FORM>
    </body>
  </html>
