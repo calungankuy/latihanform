@@ -21,18 +21,18 @@
     <input type="submit" name="submit" value="simpan">
     <hr>
 </form>
-<?php
+ <form action ="formarraypro.php" method="post">
+ <?php
 if (isset($_GET['submit'])) {
     $jml_form = $_GET['jml']
-    for ($a=1; $a <= $jml_form ; a++ ){
-        ?>
-        <form action ="formarraypro.php" method="post">
+    for ($a=1; $a <= $jml_form ; a++ ) { 
             <label for="">Nama</label>
             <input type="text" name="nama[]" required>
             <label for="">Kelas</label>
             <input type="text" name="kelas[]" required>
             <br>
             <br>
+            ?>
 
         <?php } ?>
         <input type="submit" name="sbm" value="Simpan">
